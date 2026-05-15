@@ -1,0 +1,74 @@
+@import url('https://fonts.googleapis.com/css2?family=Jersey+10&display=swap');
+
+
+#root {
+  display: flex; 
+}
+
+body{ 
+  margin: 0; 
+  padding: 0; 
+  background: #FFBABA;
+}
+
+.mainWin{
+  width: 652px;
+  height: 727px;
+  background: #FFFFFF54;
+  border-radius: 20px;
+  margin: auto;
+  margin-top: calc((100vh - 727px) / 2);
+}
+
+.heheIcon{
+  margin-left: 302px;
+  margin-top: 107px;
+  margin-bottom: 150px;
+}
+
+.winForLogin{
+  margin: 36px;
+}
+
+.input{
+  background: #FFBABA;
+  width: 580px;
+  height: 85px;
+  border-radius: 25px;
+  margin-top: 36px;
+  color: #D46767;
+
+  
+}
+
+.loginBut{
+  width: 290px;
+  height: 95px;
+  background: #FFBABA;
+  border-radius: 8px;
+  border: none;
+  margin-left: 182px;
+  font-family: "Jersey 10", sans-serif;
+  font-size: 48px;
+  color: #6B2626;
+}
+
+.inputInput{
+  font-family: "Jersey 10", sans-serif;
+  background: none;
+  border: none;
+  width: 290px;
+  height: 85px;  
+  margin-left: 23px;
+  font-size: 48px;
+  color: #D46767;
+}
+
+input:focus{
+  outline: none;
+}
+
+::placeholder{
+  color: #D46767;
+}
+
