@@ -1,0 +1,205 @@
+body{
+    display: flex;
+    flex-direction: column;
+}
+
+.likeBody{
+    height: 100vh;
+    width: 100vw;
+    background: #F9E0E0;
+}
+
+.header{
+    height: 92px;
+    width: 100vw;
+    display: flex;
+    background: #E9A9A9;
+}
+
+.fullname{
+    display: flex;
+    font-size: 48px;
+    color: #6B2626;
+    margin: auto;
+    margin-right: 0;
+    margin-left: 32px;
+}
+
+.post{
+    font-size: 48px;
+    color: #B35B5B;
+    margin: auto;
+    margin-left: 32px;
+}
+
+.manageButtons{
+    display: flex;
+    margin: auto;
+}
+
+.manageBut{
+    background: #BD5B5B;
+    border: none;
+    width: 226px;
+    height: 60px;
+    border-radius: 15px;
+    margin-right: 11px;
+    font-family: "Jersey 10", sans-serif;
+    font-size: 36px;
+    color: white;
+}
+
+.settingBut{
+    background: none;
+    border: none;
+}
+
+.logOutBut{
+    background: none;
+    border: none;
+    margin-right: 20px;
+    margin-left: 35px;
+}
+
+.between{
+    display: flex;
+    height: 80px;
+}
+
+.searchLine{
+    margin: auto;
+    margin-right: 28px;
+    width: calc(100vw *3/5)  ;
+    height: 60px;
+    border: none;
+    background: none;
+    display: flex;
+    font-family: "Jersey 10", sans-serif;
+    font-size: 48px;
+    color: #6B2626;
+
+}
+
+.search{
+    display: flex;
+    margin: auto;
+    background: #E8C5C5;
+    border-radius: 15px;
+}
+
+.searchIcon{
+    width: 38px;
+    height: 38px;
+    margin: auto;
+    margin-left: 15px;
+    margin-right: 32px;
+}
+
+.productLines{
+    display: flex;
+    flex-direction: column;
+    background: #C09A9A96;
+    height: calc(100vh - 173px - 21px);
+    width: calc(100vw - 20px*2);
+    margin: auto;
+    border-radius: 25px;
+    overflow: auto;
+    /* overflow: hidden; */
+}
+
+.sellAll{
+    background: #DD9A9A;
+    border: none;
+    width: 195px;
+    height: 50px;
+    border-radius: 15px;
+    font-family: "Jersey 10", sans-serif;
+    font-size: 40px;
+    color: #720000;
+    margin: auto;
+    margin-left: 0;
+}
+
+.bodyLine{
+    display: flex;
+    height: 130px;
+    width: calc(100vw - 20px*2 - 10px);
+    background: #EFD6D6;
+    border-radius: 24px;
+    margin: auto;
+    margin-top: 5px;
+
+}
+
+.productImage{
+    width: 101px;
+    height: 101px;
+    background: #FBF6F6;
+    border-radius: 10px;
+    margin: auto;
+    margin-left: 18px;
+    display: flex;
+    margin-right: 0;
+
+}
+
+.productImg{
+    height: 75px;
+    width: 75px;
+    margin: auto;
+}
+
+.info{
+    display: flex;
+    margin: auto;
+    margin-left: 50px;
+    color: #720000;
+    font-size: 48px;
+    gap: 105px;
+}
+
+.buttonsAtC{
+    display: flex;
+    gap: 25px;
+    margin-right: 18px;
+}
+
+.butAtCard{
+    margin: auto;
+    background: #DD9A9A;
+    border: none;
+    height: 50px;
+    font-size: 40px;
+    font-family: "Jersey 10", sans-serif;
+    padding: 0 40px 0 40px ;
+    border-radius: 15px;
+    color: #720000;
+}
+
+.qty{
+    /* position: fixed; */
+    font-size: 30px;
+    /* right: 75px;
+    top: 270px; */
+    display: flex;
+    color: #6B2626;
+}
+
+.indicator{
+    height: 23px;
+    width: 23px;
+    background: #53c46f;
+    border-radius: 1000px;
+    margin: auto;
+    margin-left: 10px;
+}
+
+input:focus{
+  outline: none;
+}
+
+::placeholder{
+  color: #C59898;
+  font-family: "Jersey 10", sans-serif;
+  font-size: 48px;
+}
